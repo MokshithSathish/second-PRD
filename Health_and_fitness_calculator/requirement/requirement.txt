@@ -1,4 +1,61 @@
-Health and Fitness Calculator Requirements
-========================================
+====================================================================
+               HEALTH AND FITNESS CALCULATOR - REQUIREMENTS
+====================================================================
 
-1. Requirements for health and fitness calculations go here.
+1. OVERVIEW
+-----------
+The Health and Fitness Calculator is a Java application designed to evaluate 
+individual physical parameters and daily habits to generate a comprehensive 
+health report.
+
+2. INPUT DATA REQUIREMENTS
+--------------------------
+The application requires the following inputs for each individual profile:
+- Name (String): Individual's full name.
+- Height (double): Height in meters (e.g., 1.65 m).
+- Weight (double): Weight in kilograms (e.g., 60.0 kg).
+- Age (int): Age in years.
+- Activity Hours (double): Daily physical activity in hours (e.g., 1.5 hrs).
+- Water Intake (double): Daily water consumption in liters (e.g., 2.5 L).
+- Sleep Hours (double): Daily sleep duration in hours (e.g., 8.0 hrs).
+
+3. CALCULATION & EVALUATION LOGIC
+----------------------------------
+A. Body Mass Index (BMI) Calculation:
+   - Formula: BMI = Weight (kg) / (Height (m) * Height (m))
+   - Formatting: Rounded to 2 decimal places.
+
+B. BMI Category Classification:
+   - Underweight : BMI < 18.5
+   - Normal      : 18.5 <= BMI < 25.0
+   - Overweight  : 25.0 <= BMI < 30.0
+   - Obese       : BMI >= 30.0
+
+C. Lifestyle Metrics Evaluation:
+   - Activity Status:
+     * Good : Daily activity >= 1.0 hour
+     * Poor : Daily activity < 1.0 hour
+   - Water Intake Status:
+     * Good : Daily water intake >= 2.0 liters
+     * Poor : Daily water intake < 2.0 liters
+   - Sleep Status:
+     * Healthy   : Daily sleep between 7.0 and 9.0 hours (inclusive)
+     * Unhealthy : Daily sleep < 7.0 hours or > 9.0 hours
+
+D. Overall Fitness Status & Recommendations:
+   - Status: "HEALTHY"
+     * Condition: BMI Category is "Normal" AND Activity Status is "Good" 
+                  AND Water Intake Status is "Good" AND Sleep Status is "Healthy".
+     * Message: "Continue maintaining the same routine."
+   - Status: "NEEDS IMPROVEMENT"
+     * Condition: Fails one or more of the "HEALTHY" criteria.
+     * Message: "Improve your diet, exercise, water intake and sleep."
+
+4. OUTPUT FORMATTING REQUIREMENTS
+---------------------------------
+The application must display a formatted report for each profile containing:
+- Report Header ("HEALTH AND FITNESS REPORT")
+- Individual's Name, calculated BMI, and assigned BMI Category
+- Status of Activity, Water Intake, and Sleep
+- Overall Fitness Status and actionable Recommendation Message
+- Section divider separating multiple user reports
