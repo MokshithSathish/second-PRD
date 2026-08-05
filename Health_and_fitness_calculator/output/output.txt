@@ -1,0 +1,29 @@
+HEALTH AND FITNESS REPORT
+
+Name: Meera
+BMI: 22.04
+BMI Category: Normal
+
+Activity Status: Good
+Water Intake Status: Good
+Sleep Status: Healthy
+
+Overall Fitness Status: HEALTHY
+Message: Continue maintaining the same routine.
+
+----------------------------
+
+HEALTH AND FITNESS REPORT
+
+Name: Rahul
+BMI: 27.76
+BMI Category: Overweight
+
+Activity Status: Poor
+Water Intake Status: Poor
+Sleep Status: Unhealthy
+
+Overall Fitness Status: NEEDS IMPROVEMENT
+Message: Improve your diet, exercise, water intake and sleep.
+
+----------------------------
