@@ -1,15 +1,13 @@
-====================================================================
-               HEALTH AND FITNESS CALCULATOR - REQUIREMENTS
-====================================================================
+HEALTH AND FITNESS CALCULATOR - REQUIREMENTS
 
 1. OVERVIEW
------------
+
 The Health and Fitness Calculator is a Java application designed to evaluate 
 individual physical parameters and daily habits to generate a comprehensive 
 health report.
 
 2. INPUT DATA REQUIREMENTS
---------------------------
+
 The application requires the following inputs for each individual profile:
 - Name (String): Individual's full name.
 - Height (double): Height in meters (e.g., 1.65 m).
@@ -20,7 +18,7 @@ The application requires the following inputs for each individual profile:
 - Sleep Hours (double): Daily sleep duration in hours (e.g., 8.0 hrs).
 
 3. CALCULATION & EVALUATION LOGIC
-----------------------------------
+
 A. Body Mass Index (BMI) Calculation:
    - Formula: BMI = Weight (kg) / (Height (m) * Height (m))
    - Formatting: Rounded to 2 decimal places.
@@ -52,7 +50,7 @@ D. Overall Fitness Status & Recommendations:
      * Message: "Improve your diet, exercise, water intake and sleep."
 
 4. OUTPUT FORMATTING REQUIREMENTS
----------------------------------
+
 The application must display a formatted report for each profile containing:
 - Report Header ("HEALTH AND FITNESS REPORT")
 - Individual's Name, calculated BMI, and assigned BMI Category
