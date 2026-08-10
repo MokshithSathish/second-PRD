@@ -1,0 +1,26 @@
+PROJECT: CampusTrack - Student Academic Management System
+
+Create a Java console application using Scanner.
+
+Requirements:
+- Take student ID, name, age, email, course, semester and career goal.
+- Validate age (15-35), semester (1-8), and course (1-5).
+- Use switch for course selection and fees.
+- Take marks for Java, SQL, Web Technology, Aptitude and Communication.
+- Validate marks from 0-100.
+- Calculate total, percentage, result and grade.
+- Every subject must have at least 35 marks and percentage must be at least 40%.
+- Take attendance and calculate percentage. Minimum attendance is 75%.
+- Process 1-10 assignment scores using for loop.
+- Use break for -1 and continue for invalid scores.
+- Calculate assignment average. Minimum average is 5.
+- Calculate scholarship: 10%, 5% or 0%.
+- Calculate fee, amount paid, balance and payment status.
+- Final clearance requires academics, attendance, assignments and fees to pass.
+- Display all failed conditions and recommendations.
+- Use do-while to process another student.
+
+Java concepts required:
+Scanner, variables, operators, type casting, if-else,
+switch, ternary operator, for, while, do-while, break and continue.
+

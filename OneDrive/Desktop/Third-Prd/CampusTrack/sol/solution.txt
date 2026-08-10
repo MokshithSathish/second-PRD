@@ -1,0 +1,105 @@
+========== CAMPUS TRACK ==========
+Student ID: 
+STU101
+Full Name: 
+Ananya Rao
+Age: 
+20
+Email: 
+ananya@gmail.com
+
+1.BCA  2.B.Sc CS  3.B.E/B.Tech  4.MCA  5.Other
+Course choice: 
+3
+Semester (1-8): 
+4
+Career Goal: 
+Become a Java backend developer
+
+----- MARKS -----
+Java: 
+82
+SQL: 
+76
+Web Technology: 
+71
+Aptitude: 
+63
+Communication: 
+78
+
+Total classes: 
+100
+Classes attended: 
+82
+
+Number of assignments (1-10): 
+5
+Assignment 1 (-1 to finish): 
+8
+Assignment 2 (-1 to finish): 
+15
+Invalid. Skipped.
+Assignment 3 (-1 to finish): 
+7
+Assignment 4 (-1 to finish): 
+-1
+
+Final payable fee: ?50000.00
+Amount paid: 
+50000
+
+========== STUDENT REPORT ==========
+ID              : STU101
+Name            : Ananya Rao
+Age             : 20
+Email           : ananya@gmail.com
+Course          : B.E/B.Tech
+Semester        : 4
+Career Goal     : Become a Java backend developer
+
+----- ACADEMIC -----
+Java            : 82
+SQL             : 76
+Web Technology  : 71
+Aptitude        : 63
+Communication   : 78
+Total           : 370/500
+Percentage      : 74.00%
+Result          : PASSED
+Grade           : B
+
+----- ATTENDANCE -----
+Attendance      : 82/100
+Percentage      : 82.00%
+Status          : REGULAR
+
+----- ASSIGNMENTS -----
+Valid           : 2
+Total           : 15
+Average         : 7.50
+Status          : SATISFACTORY
+
+----- FEES -----
+Base Fee        : ?50000.00
+Scholarship     : 0%
+Discount        : ?0.00
+Payable         : ?50000.00
+Paid            : ?50000.00
+Balance         : ?0.00
+Fee Status      : PAID
+
+----- FINAL STATUS -----
+Clearance       : CLEARED FOR NEXT SEMESTER
+
+----- FAILED CONDITIONS -----
+None
+
+----- RECOMMENDATIONS -----
+- Maintain your current performance.
+
+Process another student?
+1. Yes
+0. No
+Choice: 
+0
